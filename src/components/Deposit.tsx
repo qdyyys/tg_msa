@@ -9,7 +9,7 @@ const Deposit = () => {
       <h2 className="my-5">Пополнить баланс</h2>
 
       <div>
-        <ul className="text-xs text-lightGray dep_list flex flex-col gap-2">
+        <ul className="text-xs text-lightGray dep_list flex flex-col gap-2 pb-16">
           <li>
             <img src={umoneyIcon} alt="" />
             Юmoney
