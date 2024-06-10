@@ -13,7 +13,7 @@ const PageWrap = () => {
         <Deposit />
       </div>
 
-      <div className="bg-navColor w-full h-24 flex-none">
+      <div className="bg-navColor w-full h-24 flex-none shadow-navShadow">
         <nav className="h-full">
           <ul className="flex justify-center gap-11 items-center h-full">
             <li>

@@ -6,6 +6,9 @@ export default {
       dropShadow: {
         headShadow: "0px 1px 10px rgba(0, 0, 0, 0.25)",
       },
+      boxShadow: {
+        navShadow: "0px 4px 40px rgba(0, 0, 0, 0.1) inset",
+      },
       colors: {
         headColor: "rgba(248, 247, 255, 1)",
         navColor: "rgba(249, 240, 240, 1)",

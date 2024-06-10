@@ -17,7 +17,9 @@
   src: url(../public/fonts/SFPRODISPLAYREGULAR.ttf);
   src: url(../public/fonts/SFPRODISPLAYREGULAR.woff2);
 }
-
+body {
+  overflow: hidden;
+}
 .dep_list li {
   width: 90%;
   border-radius: 13px;
