@@ -7,7 +7,7 @@ const Transactions = () => {
       <div className="font-SFProDisplay500">
         <h2 className="text-3xl text-center my-5">Заказы</h2>
         <div className="flex flex-col items-center px-4 gap-5">
-          <div className="w-full">
+          <div className="w-full animate-showOp">
             <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-paid">

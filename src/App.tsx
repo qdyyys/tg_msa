@@ -1,12 +1,11 @@
-import PageWrap from "./components/PageWrap"
+import PageWrap from "./components/PageWrap";
 
 function App() {
-
   return (
-    <>  
-    <PageWrap />
+    <>
+      <PageWrap />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -5,52 +5,62 @@ import cryptomus from "../../public/icons/cryptomus.svg";
 
 const Deposit = () => {
   return (
-    <div className="font-SFProRounded600 text-3xl text-center overflow-auto h-full">
+    <div className="font-SFProRounded600 text-3xl text-center overflow-y-auto h-full overflow-x-hidden">
       <h2 className="my-5">Пополнить баланс</h2>
 
       <div>
         <ul className="text-xs text-lightGray dep_list flex flex-col gap-2 pb-16">
-          <li>
+          <li className="animate-showTrns">
             <img src={umoneyIcon} alt="" />
             Юmoney
           </li>
-          <li>
+
+          <li className="animate-showTrnsBack">
             <img src={lolzIcon} alt="" />
             LolzTeam
           </li>
-          <li>
+
+          <li className="animate-showTrns">
             <img src={aaioIcon} alt="" />
             AAIO
           </li>
-          <li>
+
+          <li className="animate-showTrnsBack">
             <img src={cryptomus} alt="" />
             Cryptomus
           </li>
-          <li>
+
+          <li className="animate-showTrns">
             <img src={umoneyIcon} alt="" />
             Юmoney
           </li>
-          <li>
+
+          <li className="animate-showTrnsBack">
             <img src={umoneyIcon} alt="" />
             Юmoney
           </li>
-          <li>
+
+          <li className="animate-showTrns">
             <img src={umoneyIcon} alt="" />
             Юmoney
           </li>
-          <li>
+
+          <li className="animate-showTrnsBack">
             <img src={umoneyIcon} alt="" />
             Юmoney
           </li>
-          <li>
+
+          <li className="animate-showTrns">
             <img src={umoneyIcon} alt="" />
             Юmoney
           </li>
-          <li>
+
+          <li className="animate-showTrnsBack">
             <img src={umoneyIcon} alt="" />
             Юmoney
           </li>
-          <li>
+
+          <li className="animate-showTrns">
             <img src={umoneyIcon} alt="" />
             Юmoney
           </li>
