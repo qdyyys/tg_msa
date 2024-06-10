@@ -25,9 +25,10 @@ export default {
         SFProDisplay400: ["SFPRODISPLAYREGULAR", "sans"],
       },
       animation: {
-        showTrns: "showTrns 1s ease",
-        showTrnsBack: "showTrnsBack 1s ease",
-        showOp: "showOp .5s ease-in-out",
+        showTrns: "showTrns .8s ease",
+        showTrnsBack: "showTrnsBack .8s ease",
+        showOp: "showOp .4s ease",
+        showProducts: "showProducts .4s ease",
       },
     },
   },

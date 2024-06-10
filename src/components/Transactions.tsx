@@ -39,7 +39,7 @@ const Transactions = () => {
             </div>
           </div>
 
-          <div className="w-full">
+          <div className="w-full animate-showOp">
             <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-paid">
@@ -71,7 +71,7 @@ const Transactions = () => {
             </div>
           </div>
 
-          <div className="w-full">
+          <div className="w-full animate-showOp">
             <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-success">
@@ -103,7 +103,7 @@ const Transactions = () => {
             </div>
           </div>
 
-          <div className="w-full">
+          <div className="w-full animate-showOp">
             <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-success">
@@ -135,7 +135,7 @@ const Transactions = () => {
             </div>
           </div>
 
-          <div className="w-full">
+          <div className="w-full animate-showOp">
             <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-success">
@@ -167,7 +167,7 @@ const Transactions = () => {
             </div>
           </div>
 
-          <div className="w-full">
+          <div className="w-full animate-showOp">
             <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-success">
