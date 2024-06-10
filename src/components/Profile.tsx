@@ -1,4 +1,11 @@
+import React, { useEffect } from "react";
+
 const Profile = () => {
+  useEffect(() => {
+    const tg = (window as any).tg;
+    console.log(tg + "1123123");
+  });
+
   return (
     <div className="h-full px-5">
       <h2 className="font-SFProRounded600 text-3xl text-center my-5">
