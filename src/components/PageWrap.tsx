@@ -4,9 +4,6 @@ import { GrTransaction } from "react-icons/gr";
 import { CgProfile } from "react-icons/cg";
 import ModelImg from "../../public/images/image 1.jpg";
 
-// import Home from "./Home";
-// import Profile from "./Profile";
-// import Deposit from "./Deposit";
 import Transactions from "./Transactions";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Profile from "./Profile";
