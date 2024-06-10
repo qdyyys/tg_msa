@@ -8,7 +8,7 @@ import ModelImg from "../../public/images/image 1.jpg";
 
 const PageWrap = () => {
   return (
-    <div className="max-w-xl h-screen flex flex-col">
+    <div className="max-w-xl h-screen flex flex-col bg-white">
       <div className="bg-headColor w-full h-24 flex-none drop-shadow-headShadow overflow-y-hidden overflow-x-auto">
         <ul className="flex flex-row items-center gap-14 justify-center h-full overflow-auto">
           <li className="flex flex-col items-center">
