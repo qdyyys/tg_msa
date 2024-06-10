@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: rgb(55 65 81);
+@font-face {
+  font-family: "Net-SF-Pro-Rounded-Semibold";
+  src: url(../public/fonts/FontsFree-Net-SF-Pro-Rounded-Semibold.ttf);
+  src: url(../public/fonts/FontsFree-Net-SF-Pro-Rounded-Semibold.woff2);
+}
+@font-face {
+  font-family: "SFPRODISPLAYMEDIUM";
+  src: url(../public/fonts/SFPRODISPLAYMEDIUM.ttf);
+  src: url(../public/fonts/SFPRODISPLAYMEDIUM.woff2);
+}
+@font-face {
+  font-family: "SFPRODISPLAYREGULAR";
+  src: url(../public/fonts/SFPRODISPLAYREGULAR.ttf);
+  src: url(../public/fonts/SFPRODISPLAYREGULAR.woff2);
+}
+
+.dep_list li {
+  width: 90%;
+  border-radius: 13px;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  box-shadow: 8px 4px 25px rgba(0, 0, 0, 0.25);
+  gap: 12px;
 }
