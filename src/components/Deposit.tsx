@@ -7,6 +7,7 @@ const Deposit = () => {
   return (
     <div className="font-SFProRounded600 text-3xl text-center overflow-auto h-full">
       <h2 className="my-5">Пополнить баланс</h2>
+
       <div>
         <ul className="text-xs text-lightGray dep_list flex flex-col gap-2">
           <li>

@@ -30,4 +30,10 @@ body {
   align-items: center;
   box-shadow: 8px 4px 25px rgba(0, 0, 0, 0.25);
   gap: 12px;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+.dep_list li:active {
+  transform: scale(0.96);
 }
