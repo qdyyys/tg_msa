@@ -4,7 +4,7 @@ import { IoCashOutline } from "react-icons/io5";
 import { GrTransaction } from "react-icons/gr";
 import { CgProfile } from "react-icons/cg";
 import ModelImg from "../../public/images/image 1.jpg";
-import Profile from "./Profile";
+// import Profile from "./Profile";
 
 const PageWrap = () => {
   return (
