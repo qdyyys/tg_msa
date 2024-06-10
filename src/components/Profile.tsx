@@ -37,10 +37,23 @@ const Profile = () => {
       </h2>
       {userData && (
         <div className="bg-white w-full drop-shadow-contOp min-h-16 rounded-xl px-5 py-4">
-          <p>ID: {userData.id}</p>
-          <p>Имя: {userData.first_name}</p>
-          <p>Username: {userData.username}</p>
-          <p>Язык: {userData.language_code}</p>
+          <p className="flex justify-between">
+            ID: <span className="font-SFProDisplay500">{userData.id}</span>
+          </p>
+          <p className="flex justify-between">
+            Имя:{" "}
+            <span className="font-SFProDisplay500">{userData.first_name}</span>
+          </p>
+          <p className="flex justify-between">
+            Username:{" "}
+            <span className="font-SFProDisplay500">{userData.username}</span>
+          </p>
+          <p className="flex justify-between">
+            Язык:{" "}
+            <span className="font-SFProDisplay500">
+              {userData.language_code}
+            </span>
+          </p>
         </div>
       )}
     </div>
