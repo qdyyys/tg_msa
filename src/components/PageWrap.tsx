@@ -1,8 +1,8 @@
-import homeIco from "../../public/home.png";
-import profileIco from "../../public/profile.png";
-import rdaIco from "../../public/rda.png";
-import groupIco from "../../public/group.png";
 import Deposit from "./Deposit";
+import { AiFillHome } from "react-icons/ai";
+import { IoCashOutline } from "react-icons/io5";
+import { GrTransaction } from "react-icons/gr";
+import { CgProfile } from "react-icons/cg";
 
 const PageWrap = () => {
   return (
@@ -17,16 +17,16 @@ const PageWrap = () => {
         <nav className="h-full">
           <ul className="flex justify-center gap-11 items-center h-full">
             <li>
-              <img src={homeIco} alt="" />
+              <AiFillHome className="text-3xl text-defaultNavIcon" />
             </li>
             <li>
-              <img src={groupIco} alt="" />
+              <IoCashOutline className="text-3xl text-defaultNavIcon" />
             </li>
             <li>
-              <img src={rdaIco} alt="" />
+              <GrTransaction className="text-3xl text-defaultNavIcon" />
             </li>
             <li>
-              <img src={profileIco} alt="" />
+              <CgProfile className="text-3xl text-defaultNavIcon" />
             </li>
           </ul>
         </nav>

@@ -14,6 +14,7 @@ export default {
         navColor: "rgba(249, 240, 240, 1)",
         lightGray: "rgba(152, 153, 170, 1)",
         groundMain: "rgba(250, 251, 253, 1)",
+        defaultNavIcon: "#9899aa",
       },
       fontFamily: {
         SFProRounded600: ["Net-SF-Pro-Rounded-Semibold", "sans"],
