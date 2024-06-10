@@ -18,6 +18,7 @@ export default {
         defaultNavIcon: "#9899aa",
         paid: "rgba(54, 158, 254, 1)",
         success: "rgba(63, 219, 119, 1)",
+        activeItem: "rgba(193, 47, 244, 1)",
       },
       fontFamily: {
         SFProRounded600: ["Net-SF-Pro-Rounded-Semibold", "sans"],

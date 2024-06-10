@@ -1,9 +1,12 @@
+import { BrowserRouter } from "react-router-dom";
 import PageWrap from "./components/PageWrap";
 
 function App() {
   return (
     <>
-      <PageWrap />
+      <BrowserRouter>
+        <PageWrap />
+      </BrowserRouter>
     </>
   );
 }

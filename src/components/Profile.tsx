@@ -38,9 +38,9 @@ const Profile = () => {
       {userData && (
         <div className="bg-white w-full drop-shadow-contOp min-h-16 rounded-xl px-5 py-4">
           <p>ID: {userData.id}</p>
+          <p>Имя: {userData.first_name}</p>
           <p>Username: {userData.username}</p>
           <p>Язык: {userData.language_code}</p>
-          <p>Premium: {userData.is_premium ? "Yes" : "No"}</p>
         </div>
       )}
     </div>
