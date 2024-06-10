@@ -10,14 +10,12 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script defer>
       window.Telegram.WebApp.expand();
+      window.tg = window.Telegram.WebApp;
     </script>
     <title>Vite + React + TS</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script>
-      console.log(Telegram.WebApp.initData + "123");
-    </script>
   </body>
 </html>
