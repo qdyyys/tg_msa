@@ -6,7 +6,7 @@ import { CgProfile } from "react-icons/cg";
 
 const PageWrap = () => {
   return (
-    <div className="max-w-md h-screen flex flex-col">
+    <div className="max-w-xl h-screen flex flex-col">
       <div className="bg-headColor w-full h-24 flex-none drop-shadow-headShadow"></div>
 
       <div className="min-h-11 flex-1">
