@@ -36,7 +36,7 @@ const Profile = () => {
         {`Мой профиль ${userName}`}
       </h2>
       {userData && (
-        <div className="bg-white w-full drop-shadow-contOp min-h-16 rounded-xl px-5 py-4 bg-tg-theme-bg-color text-tg-theme-text-color">
+        <div className="w-full drop-shadow-contOp min-h-16 rounded-xl px-5 py-4 bg-tg-theme-bg-color text-tg-theme-text-color">
           <p className="flex justify-between">
             ID: <span className="font-SFProDisplay500">{userData.id}</span>
           </p>
