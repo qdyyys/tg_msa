@@ -7,8 +7,8 @@ const Transactions = () => {
       <div className="font-SFProDisplay500">
         <h2 className="text-3xl text-center my-5">Заказы</h2>
         <div className="flex flex-col items-center px-4 gap-5">
-          <div className="w-full animate-showOp bg-tg-theme-bg-color text-tg-theme-text-color">
-            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
+          <div className="w-full animate-showOp">
+            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14 bg-tg-theme-bg-color text-tg-theme-text-color">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-paid">
                   <h3>Оплачено</h3>
@@ -39,8 +39,8 @@ const Transactions = () => {
             </div>
           </div>
 
-          <div className="w-full animate-showOp bg-tg-theme-bg-color text-tg-theme-text-color">
-            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
+          <div className="w-full animate-showOp">
+            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14 bg-tg-theme-bg-color text-tg-theme-text-color">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-paid">
                   <h3>Оплачено</h3>
@@ -71,8 +71,8 @@ const Transactions = () => {
             </div>
           </div>
 
-          <div className="w-full animate-showOp bg-tg-theme-bg-color text-tg-theme-text-color">
-            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
+          <div className="w-full animate-showOp">
+            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14 bg-tg-theme-bg-color text-tg-theme-text-color">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-success">
                   <h3>Выполнено</h3>
@@ -103,8 +103,8 @@ const Transactions = () => {
             </div>
           </div>
 
-          <div className="w-full animate-showOp bg-tg-theme-bg-color text-tg-theme-text-color">
-            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
+          <div className="w-full animate-showOp">
+            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14 bg-tg-theme-bg-color text-tg-theme-text-color">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-success">
                   <h3>Выполнено</h3>
@@ -135,8 +135,8 @@ const Transactions = () => {
             </div>
           </div>
 
-          <div className="w-full animate-showOp bg-tg-theme-bg-color text-tg-theme-text-color">
-            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
+          <div className="w-full animate-showOp">
+            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14 bg-tg-theme-bg-color text-tg-theme-text-color">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-success">
                   <h3>Выполнено</h3>
@@ -167,8 +167,8 @@ const Transactions = () => {
             </div>
           </div>
 
-          <div className="w-full animate-showOp bg-tg-theme-bg-color text-tg-theme-text-color">
-            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14">
+          <div className="w-full animate-showOp">
+            <div className="rounded-xl h-36 drop-shadow-contOp bg-white py-3 px-4 flex gap-8 h-max pb-14 bg-tg-theme-bg-color text-tg-theme-text-color">
               <div className="text-sm flex flex-col gap-">
                 <div className="flex items-center justify-between text-success">
                   <h3>Выполнено</h3>
