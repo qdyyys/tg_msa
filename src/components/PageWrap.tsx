@@ -20,7 +20,7 @@ const PageWrap = () => {
 
   return (
     <div className="max-w-xl h-screen flex flex-col bg-white">
-      <div className="bg-tg-theme-bg-color text-tg-theme-text-color w-full h-24 flex-none drop-shadow-headShadow overflow-y-hidden overflow-x-auto">
+      <div className="bg-headColor bg-tg-theme-bg-color text-tg-theme-text-color w-full h-24 flex-none drop-shadow-headShadow overflow-y-hidden overflow-x-auto">
         <ul className="flex flex-row items-center gap-14 justify-center h-full overflow-auto">
           {[...Array(5)].map((_, index) => (
             <li
@@ -38,7 +38,7 @@ const PageWrap = () => {
         </ul>
       </div>
 
-      <div className="min-h-11 flex-1">
+      <div className="min-h-11 flex-1 bg-tg-theme-bg-color text-tg-theme-text-color">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
@@ -47,7 +47,7 @@ const PageWrap = () => {
         </Routes>
       </div>
 
-      <div className="bg-navColor w-full h-24 flex-none shadow-navShadow">
+      <div className="bg-navColor w-full h-24 flex-none shadow-navShadow bg-tg-theme-bg-color text-tg-theme-text-color">
         <nav className="h-full">
           <ul className="flex justify-center gap-11 items-center h-full">
             <Link to="/" onClick={() => setActivePath("/")}>
