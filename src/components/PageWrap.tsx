@@ -20,7 +20,7 @@ const PageWrap = () => {
 
   return (
     <div className="max-w-xl h-screen flex flex-col bg-white">
-      <div className="bg-headColor w-full h-24 flex-none drop-shadow-headShadow overflow-y-hidden overflow-x-auto">
+      <div className="bg-tg-theme-bg-color text-tg-theme-text-color w-full h-24 flex-none drop-shadow-headShadow overflow-y-hidden overflow-x-auto">
         <ul className="flex flex-row items-center gap-14 justify-center h-full overflow-auto">
           {[...Array(5)].map((_, index) => (
             <li

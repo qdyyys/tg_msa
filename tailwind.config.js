@@ -19,6 +19,8 @@ export default {
         paid: "rgba(54, 158, 254, 1)",
         success: "rgba(63, 219, 119, 1)",
         activeItem: "rgba(193, 47, 244, 1)",
+        "tg-theme-bg-color": "var(--tg-theme-bg-color)",
+        "tg-theme-text-color": "var(--tg-theme-text-color)",
       },
       fontFamily: {
         SFProRounded600: ["Net-SF-Pro-Rounded-Semibold", "sans"],
